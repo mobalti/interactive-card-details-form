@@ -47,7 +47,7 @@ export default function CardForm({
             id="cardNumber"
             placeholder="e.g. 1234 5678 9123 0000"
             inputMode="numeric"
-            autoComplete="cc-number"
+            // autoComplete="cc-number"
             // pattern="[0-9]+"
             value={formData.cardNumber}
             onChange={handleInputChange}
@@ -69,7 +69,7 @@ export default function CardForm({
                 id="expirationMonth"
                 name="expirationMonth"
                 placeholder="MM"
-                autoComplete="cc-exp"
+                // autoComplete="cc-exp"
                 aria-label="Expiration Month"
                 maxLength={2}
                 onChange={handleInputChange}
@@ -80,7 +80,7 @@ export default function CardForm({
                 type="text"
                 id="expirationYear"
                 name="expirationYear"
-                autoComplete="cc-exp"
+                // autoComplete="cc-exp"
                 placeholder="YY"
                 maxLength={2}
                 aria-label="Expiration Year"
